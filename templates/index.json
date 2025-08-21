@@ -174,6 +174,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_NAcRrX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #CA583A;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTES</span></strong> EN PARLENT LE MIEUX\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials12_bi7tqx": {
       "type": "testimonials12",
       "blocks": {
@@ -266,7 +279,7 @@
       ],
       "name": "SS - Testimonials #12",
       "settings": {
-        "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 30,
@@ -342,10 +355,10 @@
         "btn_icon_size_mobile": 40,
         "card_bg_color": "#FFFFFF",
         "card_bg_gradient": "",
-        "card_border_color": "#DEDBC4",
+        "card_border_color": "#ca583a",
         "card_shadow_color": "#000000",
         "media_border_color": "#000000",
-        "stars_color": "#323232",
+        "stars_color": "#08b47c",
         "text_color": "#323232",
         "author_color": "#323232",
         "video_icon_bg_color": "#FFFFFF",
@@ -355,7 +368,7 @@
         "dots_color": "#837c5c",
         "heading_color": "#837c5c",
         "sub_heading_color": "#837c5c",
-        "background_color": "#F6F5F2",
+        "background_color": "#f0f0f0",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -628,6 +641,7 @@
     "image_with_text_overlay_hr6dqE",
     "custom_liquid_zqAqJU",
     "multi_column_NqJQRc",
+    "custom_liquid_NAcRrX",
     "testimonials12_bi7tqx",
     "featured_product_tczi86",
     "multi_column_RDht7x",
