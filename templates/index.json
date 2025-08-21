@@ -194,7 +194,7 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/1.webp",
+            "image": "shopify://shop_images/assets_task_01k3761pdtekft7fe8b8raz9tb_1755809261_img_0.webp",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
@@ -254,6 +254,7 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/assets_task_01k375d8pae48bjzg7rcs6mw13_1755808598_img_1.webp",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
