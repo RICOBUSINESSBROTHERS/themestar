@@ -181,213 +181,122 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #CA583A;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTES</span></strong> EN PARLENT LE MIEUX\n</div>",
+        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #CA583A;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTS</span></strong> EN PARLENT LE MIEUX\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "testimonials12_bi7tqx": {
-      "type": "testimonials12",
+    "croussel_rico_Bd8bUz": {
+      "type": "crousselRico",
       "blocks": {
-        "slide_xXkd44": {
-          "type": "slide",
+        "testimonial_j7xNNY": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/assets_task_01k3761pdtekft7fe8b8raz9tb_1755809261_img_0.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>the perfect candle replacement, obsessed with the lamps!</p>",
-            "author": "<p><strong>@tracer</strong></p>"
+            "customer_photo": "shopify://shop_images/assets_task_01k375d8pae48bjzg7rcs6mw13_1755808598_img_1.webp",
+            "customer_name": "Sophie Martin",
+            "testimonial_text": "Révitalité a changé ma vie ! Fini les crashes de 15h, j'ai maintenant une énergie stable toute la journée. Je recommande à 100% !"
           }
         },
-        "slide_HFtdhN": {
-          "type": "slide",
+        "testimonial_Gaejki": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/2.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>Our kids bring them everywhere, specially when doing puzzles and drawings</p>",
-            "author": "<p><strong>@theworldisyours</strong></p>"
+            "customer_photo": "shopify://shop_images/assets_task_01k3761pdtekft7fe8b8raz9tb_1755809261_img_0.webp",
+            "customer_name": "Thomas Leroux",
+            "testimonial_text": "En tant qu'entrepreneur, j'avais besoin d'un boost sans les effets secondaires du café. Parfait ! Mon focus est au top et ma digestion apaisée."
           }
         },
-        "slide_NtmAVP": {
-          "type": "slide",
+        "testimonial_8GDLU7": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/3.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>This is the brand to go for lamps, love the quality and design, as always you get what you pay</p>",
-            "author": "<p><strong>@niels_homes</strong></p>"
+            "customer_photo": "shopify://shop_images/1_d775dbcf-0c67-4a7b-8a71-ea4defe84ca0.webp",
+            "customer_name": "Julie Moreau",
+            "testimonial_text": "Sceptique au début, je suis maintenant conquise ! Le goût est délicieux et l'effet énergisant dure vraiment 12h comme promis."
           }
         },
-        "slide_KKY6X8": {
-          "type": "slide",
+        "testimonial_yteax7": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/4.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>Love them, they give the perfect luxury touch to any room</p>",
-            "author": "<p><strong>@allfinds</strong></p>"
+            "customer_photo": "shopify://shop_images/7.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
           }
         },
-        "slide_3tyhFE": {
-          "type": "slide",
+        "testimonial_YCDKWU": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/1_d775dbcf-0c67-4a7b-8a71-ea4defe84ca0.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>The cordless lamp you've been looking for!</p>",
-            "author": "<p><strong>@lacey</strong></p>"
+            "customer_photo": "shopify://shop_images/9.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
           }
         },
-        "slide_tLegPj": {
-          "type": "slide",
+        "testimonial_tUaVhT": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/assets_task_01k375d8pae48bjzg7rcs6mw13_1755808598_img_1.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>All my friends want them too now, at least I was the first one to get them..!</p>",
-            "author": "<p><strong>@mcqueen</strong></p>"
+            "customer_photo": "shopify://shop_images/4.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
           }
         },
-        "slide_NfciFH": {
-          "type": "slide",
+        "testimonial_w4wtjQ": {
+          "type": "testimonial",
           "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/7.webp",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>I use it every day early in the morning and on our dining table, it is do convenient and cool</p>",
-            "author": "<p><strong>@dwithpatty</strong></p>"
+            "customer_photo": "shopify://shop_images/5.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
+          }
+        },
+        "testimonial_dcrDB6": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/6.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
+          }
+        },
+        "testimonial_aCgLDG": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/3.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
+          }
+        },
+        "testimonial_JhEtfz": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/2.webp",
+            "customer_name": "Marie Dubois",
+            "testimonial_text": "Ce produit a complètement transformé mes matins ! Fini les coups de fatigue, j'ai enfin trouvé l'énergie naturelle que je cherchais."
           }
         }
       },
       "block_order": [
-        "slide_xXkd44",
-        "slide_HFtdhN",
-        "slide_NtmAVP",
-        "slide_KKY6X8",
-        "slide_3tyhFE",
-        "slide_tLegPj",
-        "slide_NfciFH"
+        "testimonial_j7xNNY",
+        "testimonial_Gaejki",
+        "testimonial_8GDLU7",
+        "testimonial_yteax7",
+        "testimonial_YCDKWU",
+        "testimonial_tUaVhT",
+        "testimonial_w4wtjQ",
+        "testimonial_dcrDB6",
+        "testimonial_aCgLDG",
+        "testimonial_JhEtfz"
       ],
-      "name": "SS - Testimonials #12",
+      "name": "Testimonials Carousel",
       "settings": {
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 30,
-        "heading_size_mobile": 22,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "sub_heading": "",
-        "sub_heading_custom": false,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 30,
-        "sub_heading_size_mobile": 22,
-        "sub_heading_height": 130,
-        "sub_heading_mt": 12,
-        "sub_heading_align": "center",
-        "sub_heading_align_mobile": "center",
-        "slider_view": 5.4,
-        "slider_view_mobile": 1.5,
-        "slider_gap": 28,
-        "slider_gap_mobile": 20,
-        "slider_mt": 20,
-        "autoplay": false,
-        "autoplay_delay": 5,
-        "card_padding_vertical": 20,
-        "card_padding_vertical_mobile": 16,
-        "card_padding_horizontal": 20,
-        "card_padding_horizontal_mobile": 16,
-        "card_radius": 20,
-        "card_border_thickness": 1,
-        "card_shadow": false,
-        "media_radius": 20,
-        "media_border_thickness": 0,
-        "media_ratio": "square",
-        "media_ratio_mobile": "square",
-        "content_padding_vertical": 0,
-        "content_padding_vertical_mobile": 0,
-        "content_padding_horizontal": 0,
-        "content_padding_horizontal_mobile": 0,
-        "hide_content": false,
-        "stars_size": 16,
-        "stars_mt": 12,
-        "stars_align": "center",
-        "stars_align_mobile": "center",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 16,
-        "text_size_mobile": 16,
-        "text_height": 130,
-        "text_mt": 12,
-        "text_align": "center",
-        "text_align_mobile": "center",
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 14,
-        "author_size_mobile": 14,
-        "author_height": 130,
-        "author_mt": 12,
-        "author_align": "center",
-        "author_align_mobile": "center",
-        "navigation_mt": 40,
-        "navigation_gap": 20,
-        "navigation_align": "center",
-        "navigation_align_mobile": "center",
-        "arrow_size": 50,
-        "arrow_size_mobile": 50,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 10,
-        "dots_size_mobile": 10,
-        "dots_show_desktop": false,
-        "dots_show_mobile": true,
-        "btn_icon_size": 50,
-        "btn_icon_size_mobile": 40,
-        "card_bg_color": "#ffffff",
-        "card_bg_gradient": "",
-        "card_border_color": "#ca583a",
-        "card_shadow_color": "#000000",
-        "media_border_color": "#000000",
-        "stars_color": "#08b47c",
-        "text_color": "#323232",
-        "author_color": "#323232",
-        "video_icon_bg_color": "#ffffff",
-        "video_icon_color": "#000000",
-        "arrow_color": "#837c5c",
-        "arrow_hover_color": "#837c5c",
-        "dots_color": "#837c5c",
-        "heading_color": "#837c5c",
-        "sub_heading_color": "#837c5c",
+        "title": "",
         "background_color": "#f0f0f0",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
+        "title_color": "#333333",
+        "card_background": "#ffffff",
+        "border_color": "#e0e0e0",
+        "star_color": "#00a341",
+        "name_color": "#333333",
+        "text_color": "#666666",
+        "quote_color": "#e0e0e0",
+        "scroll_speed": 30,
+        "section_padding_top": 0,
+        "section_padding_bottom": 25
       }
     },
     "featured_product_tczi86": {
@@ -649,7 +558,7 @@
     "custom_liquid_zqAqJU",
     "multi_column_NqJQRc",
     "custom_liquid_NAcRrX",
-    "testimonials12_bi7tqx",
+    "croussel_rico_Bd8bUz",
     "featured_product_tczi86",
     "multi_column_RDht7x",
     "image_with_text_overlay_ERTREW",
