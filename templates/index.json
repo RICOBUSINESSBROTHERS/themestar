@@ -294,7 +294,7 @@
         "name_color": "#333333",
         "text_color": "#666666",
         "quote_color": "#e0e0e0",
-        "scroll_speed": 30,
+        "scroll_speed": 10,
         "section_padding_top": 0,
         "section_padding_bottom": 25
       }
