@@ -423,6 +423,22 @@
             "liquid": "<style>\n  .highlight-text {\n    font-family: 'Roboto Condensed', Arial, sans-serif;\n    font-size: 18px;\n    font-weight: 400;\n    color: #000;\n    text-align: center;\n    margin: 20px 0;\n  }\n  .highlight-text strong {\n    color: #ca583a; /* couleur accent */\n    font-weight: 700;\n  }\n</style>\n\n<p class=\"highlight-text\">\n  Offrez-vous l’<strong>énergie pure</strong> et la <strong>clarté d’esprit</strong> que vous attendiez depuis si longtemps.\n</p>"
           }
         },
+        "image_mRG6Mz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_1900_x_800_px_2.png",
+            "alignment": "center",
+            "max_width": 300
+          }
+        },
+        "image_EMmqTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lanoxie_VuFull.png",
+            "alignment": "center",
+            "max_width": 300
+          }
+        },
         "pickup_availability_zbKXcD": {
           "type": "pickup_availability",
           "disabled": true,
@@ -448,6 +464,8 @@
         "liquid_34b7fy",
         "buy_buttons_eXRdBt",
         "liquid_tJBzHW",
+        "image_mRG6Mz",
+        "image_EMmqTF",
         "pickup_availability_zbKXcD"
       ],
       "name": "Featured product",
