@@ -607,7 +607,7 @@
         "item_U8XTkw": {
           "type": "item",
           "settings": {
-            "row_heading": "NATIVE SHOPIFY PAGE BUILDER",
+            "row_heading": "Énergie qui dure toute la journée",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -617,7 +617,7 @@
         "item_WnRcpM": {
           "type": "item",
           "settings": {
-            "row_heading": "NO MONTHLY SUBSCRIPTION FEES",
+            "row_heading": "Améliore le focus et la clarté d’esprit",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -627,7 +627,7 @@
         "item_qhbTcX": {
           "type": "item",
           "settings": {
-            "row_heading": "200+ HIGHLY CUSTOMISABLE SECTIONS",
+            "row_heading": "100% bio, vegan et sans gluten",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -637,7 +637,17 @@
         "item_nUW9yr": {
           "type": "item",
           "settings": {
-            "row_heading": "THE SLEEKEST LOOKING DESIGNS",
+            "row_heading": "Soutien du système immunitaire",
+            "first_column": "✅",
+            "second_column": "❌",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_pBWefW": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Pas de nervosité ni de palpitation",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -649,7 +659,8 @@
         "item_U8XTkw",
         "item_WnRcpM",
         "item_qhbTcX",
-        "item_nUW9yr"
+        "item_nUW9yr",
+        "item_pBWefW"
       ],
       "name": "SS - Comparison Table #4",
       "settings": {
@@ -672,7 +683,7 @@
         "table_heading_image_size_mobile": 40,
         "first_heading": "Pureteo",
         "first_heading_image": "shopify://shop_images/Kaching-Bundles-PT_1.png",
-        "second_heading": "Café",
+        "second_heading": "CAFÉ",
         "third_heading": "",
         "four_heading": "",
         "table_heading_custom": false,
