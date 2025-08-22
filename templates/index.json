@@ -536,10 +536,11 @@
         "item_KYkiJL": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/assets_task_01k39m3kqdf7y8xbnfc82wh7gs_1755891103_img_0.webp",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Étape 1 - Préparez votre eau",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Eau chaude ou eau froide, <strong>Revitacafé </strong>s'adapte !<br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -548,10 +549,11 @@
         "item_EYdGXb": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/2_6cf62b34-b6ed-468c-b8e6-4745bb215c42.webp",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Étape 2 - Prenez une dose & mélangez",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>A la cuillère, mélangez <strong>Revitacafé </strong>avec votre eau prête.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -560,10 +562,11 @@
         "item_8HRmJY": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/detente.webp",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Étape 3 - Profitez",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>20 minutes après la prise, ressentez déjà un effet apaisant et décontracté, profitez en pour rayonner ! <br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -579,11 +582,11 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "3 gestes = changement garanti !",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
