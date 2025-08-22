@@ -331,6 +331,12 @@
             "liquid": "<style>\n  .stock-alert {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; /* police propre, proche du rendu natif */\n    font-size: 15px;\n    font-weight: 700;               /* gras comme sur l'image */\n    color: #e60000;                  /* rouge vif */\n    line-height: 1.2;\n  }\n\n  /* pastille rouge avec anneau pulsant */\n  .stock-alert .dot {\n    position: relative;\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #e60000;            /* cœur plein */\n    display: inline-block;\n  }\n  .stock-alert .dot::after {\n    content: \"\";\n    position: absolute;\n    inset: -5px;                     /* anneau autour */\n    border-radius: 50%;\n    border: 2px solid #e60000;       /* contour rouge */\n    opacity: 0;\n    animation: pulse-ring 1.5s ease-out infinite;\n  }\n\n  @keyframes pulse-ring {\n    0%   { transform: scale(0.7); opacity: 0.9; }\n    60%  { transform: scale(1.25); opacity: 0.25; }\n    100% { transform: scale(1.45); opacity: 0; }\n  }\n</style>\n\n<div class=\"stock-alert\">\n  <span class=\"dot\" aria-hidden=\"true\"></span>\n  <span>Stock disponible : <strong>9</strong> Packs restants</span>\n</div>"
           }
         },
+        "kaching_bundles_app_block_eeR9gB": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "badges_NVXXQE": {
           "type": "badges",
           "settings": {}
@@ -409,6 +415,7 @@
         "title_VfCkVY",
         "liquid_CA6AR7",
         "liquid_fXrUCq",
+        "kaching_bundles_app_block_eeR9gB",
         "badges_NVXXQE",
         "price_tEHfrW",
         "rating_JYeFFN",
