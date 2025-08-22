@@ -601,128 +601,6 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_ERTREW": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Sans_titre_1900_x_800_px_1.png",
-        "mobile_image": "shopify://shop_images/Sans_titre_1900_x_800_px_1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Quel goût a le café aux champignons PURETEO ?",
-            "content": "<p>Notre café garde le goût riche et crémeux d’un café latte classique ☕, avec une légère note noisette. Les champignons utilisés (Lion’s Mane, Reishi, Cordyceps…) n’ont aucun goût “terreux” : ils sont discrets mais puissants en bienfaits.<br/><br/></p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que PURETEO contient vraiment de la caféine ?",
-            "content": "<p>Oui ✅. Chaque tasse contient environ <strong>48 mg de caféine</strong>, soit environ la moitié d’un espresso classique. Cela permet d’obtenir une énergie durable sans le “crash” ni les palpitations liés à un café trop fort.<br/><br/></p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les bienfaits concrets des champignons fonctionnels ?",
-            "content": "<ul><li><strong>Lion’s Mane</strong> : améliore le focus et la mémoire.</li><li><strong>Cordyceps</strong> : booste l’endurance et l’énergie.</li><li><strong>Reishi</strong> : favorise la détente et l’équilibre émotionnel.</li><li><strong>Shiitake & Turkey Tail</strong> : soutiennent le système immunitaire et digestif.</li></ul><p>PURETEO combine ces super-aliments dans une formule 100% bio et vegan 🌱.</p>"
-          }
-        },
-        "item_hLFdJB": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je boire PURETEO si je suis sensible au café classique ?",
-            "content": "<p>Absolument 👍. Notre formule est plus douce pour l’estomac, avec moins d’acidité qu’un café classique. Beaucoup de clients qui ne supportaient pas le café traditionnel tolèrent très bien PURETEO.</p>"
-          }
-        },
-        "item_8awPFP": {
-          "type": "item",
-          "settings": {
-            "title": "Comment préparer PURETEO ?",
-            "content": "<ul><li>Ajoutez <strong>1 dose (1 cuillère)</strong> dans de l’eau chaude ou du lait végétal.</li><li>Mélangez bien (ou utilisez un petit mousseur).</li><li>Dégustez chaud ou glacé 🧊.<br/>👉 En 30 secondes, vous avez un latte crémeux et fonctionnel.</li></ul>"
-          }
-        },
-        "item_DnfMDb": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que PURETEO est sûr et certifié ?",
-            "content": "<p>Oui ✅. Tous nos ingrédients sont<strong>100% bio, vegan, sans gluten, sans OGM, sans sucre ajouté</strong>. Nos champignons sont cultivés aux États-Unis et en Europe, puis testés en laboratoire pour garantir leur pureté et leur efficacité.<br/><br/></p>"
-          }
-        },
-        "item_Dc7Gta": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les délais de livraison et votre politique de retour ?",
-            "content": "<ul><li>Livraison rapide 📦 : 5 à 7 jours ouvrés en Europe.</li><li>Vous recevez un email de suivi à chaque étape.</li><li>Et si PURETEO ne vous convient pas, vous êtes couverts par notre <strong>garantie 30 jours “satisfait ou remboursé”</strong>.</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2",
-        "item_hLFdJB",
-        "item_8awPFP",
-        "item_DnfMDb",
-        "item_Dc7Gta"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "#f9f1e9",
-        "accordion_text_color": ""
-      }
-    },
-    "contact_Lrh9fY": {
-      "type": "contact",
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Une question?",
-        "content": "",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f9f1e9",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "camparison2_K7eWj8": {
       "type": "camparison2",
       "blocks": {
@@ -888,6 +766,128 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "image_with_text_overlay_ERTREW": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Sans_titre_1900_x_800_px_1.png",
+        "mobile_image": "shopify://shop_images/Sans_titre_1900_x_800_px_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Quel goût a le café aux champignons PURETEO ?",
+            "content": "<p>Notre café garde le goût riche et crémeux d’un café latte classique ☕, avec une légère note noisette. Les champignons utilisés (Lion’s Mane, Reishi, Cordyceps…) n’ont aucun goût “terreux” : ils sont discrets mais puissants en bienfaits.<br/><br/></p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que PURETEO contient vraiment de la caféine ?",
+            "content": "<p>Oui ✅. Chaque tasse contient environ <strong>48 mg de caféine</strong>, soit environ la moitié d’un espresso classique. Cela permet d’obtenir une énergie durable sans le “crash” ni les palpitations liés à un café trop fort.<br/><br/></p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les bienfaits concrets des champignons fonctionnels ?",
+            "content": "<ul><li><strong>Lion’s Mane</strong> : améliore le focus et la mémoire.</li><li><strong>Cordyceps</strong> : booste l’endurance et l’énergie.</li><li><strong>Reishi</strong> : favorise la détente et l’équilibre émotionnel.</li><li><strong>Shiitake & Turkey Tail</strong> : soutiennent le système immunitaire et digestif.</li></ul><p>PURETEO combine ces super-aliments dans une formule 100% bio et vegan 🌱.</p>"
+          }
+        },
+        "item_hLFdJB": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je boire PURETEO si je suis sensible au café classique ?",
+            "content": "<p>Absolument 👍. Notre formule est plus douce pour l’estomac, avec moins d’acidité qu’un café classique. Beaucoup de clients qui ne supportaient pas le café traditionnel tolèrent très bien PURETEO.</p>"
+          }
+        },
+        "item_8awPFP": {
+          "type": "item",
+          "settings": {
+            "title": "Comment préparer PURETEO ?",
+            "content": "<ul><li>Ajoutez <strong>1 dose (1 cuillère)</strong> dans de l’eau chaude ou du lait végétal.</li><li>Mélangez bien (ou utilisez un petit mousseur).</li><li>Dégustez chaud ou glacé 🧊.<br/>👉 En 30 secondes, vous avez un latte crémeux et fonctionnel.</li></ul>"
+          }
+        },
+        "item_DnfMDb": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que PURETEO est sûr et certifié ?",
+            "content": "<p>Oui ✅. Tous nos ingrédients sont<strong>100% bio, vegan, sans gluten, sans OGM, sans sucre ajouté</strong>. Nos champignons sont cultivés aux États-Unis et en Europe, puis testés en laboratoire pour garantir leur pureté et leur efficacité.<br/><br/></p>"
+          }
+        },
+        "item_Dc7Gta": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison et votre politique de retour ?",
+            "content": "<ul><li>Livraison rapide 📦 : 5 à 7 jours ouvrés en Europe.</li><li>Vous recevez un email de suivi à chaque étape.</li><li>Et si PURETEO ne vous convient pas, vous êtes couverts par notre <strong>garantie 30 jours “satisfait ou remboursé”</strong>.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2",
+        "item_hLFdJB",
+        "item_8awPFP",
+        "item_DnfMDb",
+        "item_Dc7Gta"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f9f1e9",
+        "accordion_text_color": ""
+      }
+    },
+    "contact_Lrh9fY": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Une question?",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f9f1e9",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -901,9 +901,9 @@
     "featured_product_tczi86",
     "accordion_content_9KhmeE",
     "multi_column_RDht7x",
+    "camparison2_K7eWj8",
     "image_with_text_overlay_ERTREW",
     "faq",
-    "contact_Lrh9fY",
-    "camparison2_K7eWj8"
+    "contact_Lrh9fY"
   ]
 }
