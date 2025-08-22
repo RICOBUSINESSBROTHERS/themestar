@@ -304,12 +304,13 @@
       "blocks": {
         "vendor_iFCHJK": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title_VfCkVY": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "badges_NVXXQE": {
@@ -387,7 +388,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "revitacafe-cafe-revitalisant",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
