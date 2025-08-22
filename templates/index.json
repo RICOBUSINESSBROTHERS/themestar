@@ -392,6 +392,14 @@
           "disabled": true,
           "settings": {}
         },
+        "image_7H9M4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/STOCK_LIMITE.png",
+            "alignment": "center",
+            "max_width": 300
+          }
+        },
         "liquid_34b7fy": {
           "type": "liquid",
           "settings": {
@@ -436,6 +444,7 @@
         "description_bpfcXG",
         "variant_picker_tcMDCQ",
         "quantity_selector_t6VP8k",
+        "image_7H9M4J",
         "liquid_34b7fy",
         "buy_buttons_eXRdBt",
         "liquid_tJBzHW",
