@@ -519,41 +519,73 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Quel goût a le café aux champignons PURETEO ?",
+            "content": "<p>Notre café garde le goût riche et crémeux d’un café latte classique ☕, avec une légère note noisette. Les champignons utilisés (Lion’s Mane, Reishi, Cordyceps…) n’ont aucun goût “terreux” : ils sont discrets mais puissants en bienfaits.<br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Est-ce que PURETEO contient vraiment de la caféine ?",
+            "content": "<p>Oui ✅. Chaque tasse contient environ <strong>48 mg de caféine</strong>, soit environ la moitié d’un espresso classique. Cela permet d’obtenir une énergie durable sans le “crash” ni les palpitations liés à un café trop fort.<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Quels sont les bienfaits concrets des champignons fonctionnels ?",
+            "content": "<ul><li><strong>Lion’s Mane</strong> : améliore le focus et la mémoire.</li><li><strong>Cordyceps</strong> : booste l’endurance et l’énergie.</li><li><strong>Reishi</strong> : favorise la détente et l’équilibre émotionnel.</li><li><strong>Shiitake & Turkey Tail</strong> : soutiennent le système immunitaire et digestif.</li></ul><p>PURETEO combine ces super-aliments dans une formule 100% bio et vegan 🌱.</p>"
+          }
+        },
+        "item_hLFdJB": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je boire PURETEO si je suis sensible au café classique ?",
+            "content": "<p>Absolument 👍. Notre formule est plus douce pour l’estomac, avec moins d’acidité qu’un café classique. Beaucoup de clients qui ne supportaient pas le café traditionnel tolèrent très bien PURETEO.</p>"
+          }
+        },
+        "item_8awPFP": {
+          "type": "item",
+          "settings": {
+            "title": "Comment préparer PURETEO ?",
+            "content": "<ul><li>Ajoutez <strong>1 dose (1 cuillère)</strong> dans de l’eau chaude ou du lait végétal.</li><li>Mélangez bien (ou utilisez un petit mousseur).</li><li>Dégustez chaud ou glacé 🧊.<br/>👉 En 30 secondes, vous avez un latte crémeux et fonctionnel.</li></ul>"
+          }
+        },
+        "item_DnfMDb": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que PURETEO est sûr et certifié ?",
+            "content": "<p>Oui ✅. Tous nos ingrédients sont<strong>100% bio, vegan, sans gluten, sans OGM, sans sucre ajouté</strong>. Nos champignons sont cultivés aux États-Unis et en Europe, puis testés en laboratoire pour garantir leur pureté et leur efficacité.<br/><br/></p>"
+          }
+        },
+        "item_Dc7Gta": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison et votre politique de retour ?",
+            "content": "<ul><li>Livraison rapide 📦 : 5 à 7 jours ouvrés en Europe.</li><li>Vous recevez un email de suivi à chaque étape.</li><li>Et si PURETEO ne vous convient pas, vous êtes couverts par notre <strong>garantie 30 jours “satisfait ou remboursé”</strong>.</li></ul>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_hLFdJB",
+        "item_8awPFP",
+        "item_DnfMDb",
+        "item_Dc7Gta"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
@@ -561,7 +593,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#f9f1e9",
         "accordion_text_color": ""
       }
     },
