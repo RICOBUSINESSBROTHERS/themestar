@@ -302,6 +302,12 @@
     "featured_product_tczi86": {
       "type": "featured-product",
       "blocks": {
+        "liquid_bP8qC3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .trustpilot-score {\n    text-align: left; /* Align the content to the left */\n    margin-top: 10px; /* Add some space above the score */\n    display: flex; /* Use flexbox for alignment */\n    align-items: center; /* Vertically center content */\n    gap: 10px; /* Space between text and image */\n  }\n\n  .trustpilot-score p {\n    margin: 0;\n    font-weight: bold;\n  }\n\n  .trustpilot-score img {\n    max-width: 150px;\n    height: auto;\n  }\n</style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent</p>\n  <img src=\"https://cdn.shopify.com/s/files/1/0638/0647/2399/files/trustpilot_5stars.png?v=1752291198\" alt=\"Trustpilot rating\">\n</div>"
+          }
+        },
         "vendor_iFCHJK": {
           "type": "vendor",
           "disabled": true,
@@ -313,28 +319,44 @@
             "heading_tag": "h3"
           }
         },
+        "liquid_CA6AR7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  :root{\n    --brown:#5a4235;\n    --bg:#f9f1e9;\n    --radius:14px;\n  }\n\n  /* Section des 3 cadres */\n  .features-container{\n    display:flex;\n    justify-content:space-between;\n    gap:16px;\n    margin:20px 0;\n    flex-wrap:wrap;\n  }\n  .feature-box{\n    flex:1 1 calc(33.33% - 16px);\n    background:var(--bg);\n    border:2px solid var(--brown);\n    border-radius:var(--radius);\n    padding:20px;\n    text-align:center;\n  }\n  .feature-box svg{\n    width:34px; height:34px;\n    margin-bottom:8px;\n    color:var(--brown);\n  }\n  .feature-box h3{\n    margin:0; font-size:18px; color:var(--brown);\n  }\n  .feature-box p{\n    margin:6px 0 0; font-size:14px; color:#333;\n  }\n\n  /* Liste des bénéfices */\n  .benefits-list{ list-style:none; padding:0; margin:25px 0 0;}\n  .benefits-item{\n    display:flex; align-items:center; gap:12px;\n    margin-bottom:14px;\n  }\n  .benefits-item svg{\n    width:24px; height:24px; flex:0 0 24px; color:var(--brown);\n  }\n  .benefits-item span{\n    font-size:15px; line-height:1.35; color:#000;\n  }\n\n  /* Responsive */\n  @media(max-width:768px){\n    .feature-box{flex:1 1 100%;}\n  }\n</style>\n\n<!-- Cadres supérieurs -->\n<div class=\"features-container\">\n  <div class=\"feature-box\">\n    <!-- Tasse café -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 8h12v6a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8z\"/><path d=\"M15 10h3a3 3 0 0 1 0 6h-3\"/><path d=\"M7 3s-.5 1 .5 2-.5 2 .5 3\"/></svg>\n    <h3>1 RevitaCafé</h3>\n    <p>1 mois de vitalité préservée</p>\n  </div>\n\n  <div class=\"feature-box\">\n    <!-- Calendrier -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path d=\"M16 2v4M8 2v4M3 10h18\"/></svg>\n    <h3>Format</h3>\n    <p>30 doses, 1 par jour</p>\n  </div>\n\n  <div class=\"feature-box\">\n    <!-- Utilisateurs -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"/><circle cx=\"10\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16.5 3.5a4 4 0 0 1 0 7.07\"/></svg>\n    <h3>Adapté à tous</h3>\n    <p>Femmes &amp; hommes</p>\n  </div>\n</div>\n\n<!-- Liste bénéfices -->\n<ul class=\"benefits-list\">\n  <li class=\"benefits-item\">\n    <!-- Éclair -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n    <span>Énergie clean immédiate, sans nervosité ni crash</span>\n  </li>\n\n  <li class=\"benefits-item\">\n    <!-- Cerveau -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15.5 4.5a4.5 4.5 0 0 0-9 0v15a4.5 4.5 0 0 0 9 0zM15.5 4.5a4.5 4.5 0 0 1 9 0v15a4.5 4.5 0 0 1-9 0z\"/></svg>\n    <span>Clarté d’esprit et focus durable</span>\n  </li>\n\n  <li class=\"benefits-item\">\n    <!-- Bouclier -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n    <span>Soutient l’immunité et la vitalité</span>\n  </li>\n\n  <li class=\"benefits-item\">\n    <!-- Feuille -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22C12 15 6 15 6 9a6 6 0 0 1 12 0c0 6-6 13-6 13z\"/></svg>\n    <span>Formule bio aux champignons fonctionnels</span>\n  </li>\n\n  <li class=\"benefits-item\">\n    <!-- Badge Check -->\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9 12l2 2 4-4\"/></svg>\n    <span>Garantie 30 jours satisfait ou remboursé</span>\n  </li>\n</ul>"
+          }
+        },
+        "liquid_fXrUCq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .stock-alert {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; /* police propre, proche du rendu natif */\n    font-size: 15px;\n    font-weight: 700;               /* gras comme sur l'image */\n    color: #e60000;                  /* rouge vif */\n    line-height: 1.2;\n  }\n\n  /* pastille rouge avec anneau pulsant */\n  .stock-alert .dot {\n    position: relative;\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #e60000;            /* cœur plein */\n    display: inline-block;\n  }\n  .stock-alert .dot::after {\n    content: \"\";\n    position: absolute;\n    inset: -5px;                     /* anneau autour */\n    border-radius: 50%;\n    border: 2px solid #e60000;       /* contour rouge */\n    opacity: 0;\n    animation: pulse-ring 1.5s ease-out infinite;\n  }\n\n  @keyframes pulse-ring {\n    0%   { transform: scale(0.7); opacity: 0.9; }\n    60%  { transform: scale(1.25); opacity: 0.25; }\n    100% { transform: scale(1.45); opacity: 0; }\n  }\n</style>\n\n<div class=\"stock-alert\">\n  <span class=\"dot\" aria-hidden=\"true\"></span>\n  <span>Stock disponible : <strong>9</strong> Packs restants</span>\n</div>"
+          }
+        },
         "badges_NVXXQE": {
           "type": "badges",
           "settings": {}
         },
         "price_tEHfrW": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
         },
         "rating_JYeFFN": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": false
           }
         },
         "separator_Yryieq": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description_bpfcXG": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
@@ -343,6 +365,7 @@
         },
         "variant_picker_tcMDCQ": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -354,27 +377,38 @@
         },
         "quantity_selector_t6VP8k": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
+        },
+        "liquid_34b7fy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Timer d'Urgence Shopify</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;900&display=swap\" rel=\"stylesheet\">\n\n  <style>\n    /* Style général du timer */\n    #days, #hours, #minutes, #seconds,\n    .timer-sep {\n      color: #e17055 !important;          /* Rouge pour tous */\n      animation: blink20 2s ease-in-out infinite;\n    }\n\n    @keyframes blink20 {\n      0%   { opacity: 1;   transform: scale(1); }\n      50%  { opacity: .2;  transform: scale(1.06); }\n      100% { opacity: 1;   transform: scale(1); }\n    }\n\n    @media (max-width: 480px) {\n      #days, #hours, #minutes, #seconds {\n        font-size: 28px !important;\n        min-width: 40px !important;\n      }\n\n      .timer-label {\n        font-size: 10px !important;\n      }\n    }\n  </style>\n</head>\n<body>\n\n<div style=\"\n  text-align: center;\n  margin: 15px auto;\n  padding: 10px;\n  max-width: 320px;\n  font-family: 'Roboto Condensed', Arial, sans-serif;\n\">\n  <!-- Container du timer -->\n  <div style=\"\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 8px;\n    margin-bottom: 10px;\n  \">\n\n    <!-- Jours -->\n    <div style=\"text-align: center;\">\n      <div id=\"days\" style=\"\n        font-size: 32px;\n        font-weight: 900;\n        line-height: 1;\n        min-width: 45px;\n      \">00</div>\n      <div class=\"timer-label\" style=\"\n        font-size: 11px;\n        color: #636e72;\n        font-weight: 700;\n        text-transform: uppercase;\n        margin-top: 3px;\n      \">Jours</div>\n    </div>\n\n    <!-- Séparateur -->\n    <span class=\"timer-sep\" style=\"font-size:32px;font-weight:900;margin:0 3px;\">:</span>\n\n    <!-- Heures -->\n    <div style=\"text-align: center;\">\n      <div id=\"hours\" style=\"\n        font-size: 32px;\n        font-weight: 900;\n        line-height: 1;\n        min-width: 45px;\n      \">00</div>\n      <div class=\"timer-label\" style=\"\n        font-size: 11px;\n        color: #636e72;\n        font-weight: 700;\n        text-transform: uppercase;\n        margin-top: 3px;\n      \">Hrs</div>\n    </div>\n\n    <!-- Séparateur -->\n    <span class=\"timer-sep\" style=\"font-size:32px;font-weight:900;margin:0 3px;\">:</span>\n\n    <!-- Minutes -->\n    <div style=\"text-align: center;\">\n      <div id=\"minutes\" style=\"\n        font-size: 32px;\n        font-weight: 900;\n        line-height: 1;\n        min-width: 45px;\n      \">20</div>\n      <div class=\"timer-label\" style=\"\n        font-size: 11px;\n        color: #636e72;\n        font-weight: 700;\n        text-transform: uppercase;\n        margin-top: 3px;\n      \">Mins</div>\n    </div>\n\n    <!-- Séparateur -->\n    <span class=\"timer-sep\" style=\"font-size:32px;font-weight:900;margin:0 3px;\">:</span>\n\n    <!-- Secondes -->\n    <div style=\"text-align: center;\">\n      <div id=\"seconds\" style=\"\n        font-size: 32px;\n        font-weight: 900;\n        line-height: 1;\n        min-width: 45px;\n      \">00</div>\n      <div class=\"timer-label\" style=\"\n        font-size: 11px;\n        color: #636e72;\n        font-weight: 700;\n        text-transform: uppercase;\n        margin-top: 3px;\n      \">Secs</div>\n    </div>\n  </div>\n</div>\n\n<script>\n// Configuration du timer - 20min pour créer l'urgence maximale\nconst INITIAL_DURATION = 20 * 60; // 20min\nlet secondsLeft = INITIAL_DURATION;\n\nfunction resetTimerIfNeeded() {\n  if (secondsLeft <= 30) {\n    secondsLeft = INITIAL_DURATION;\n  }\n}\n\nfunction updateTimer() {\n  resetTimerIfNeeded();\n\n  const days = Math.floor(secondsLeft / (24 * 3600));\n  const hours = Math.floor((secondsLeft % (24 * 3600)) / 3600);\n  const minutes = Math.floor((secondsLeft % 3600) / 60);\n  const seconds = secondsLeft % 60;\n\n  document.getElementById('days').textContent = days.toString().padStart(2, '0');\n  document.getElementById('hours').textContent = hours.toString().padStart(2, '0');\n  document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');\n  document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');\n\n  secondsLeft--;\n}\n\nsetInterval(updateTimer, 1000);\nupdateTimer();\n\ndocument.addEventListener('visibilitychange', function() {\n  if (!document.hidden) {\n    secondsLeft = INITIAL_DURATION;\n  }\n});\n</script>\n\n</body>\n</html>"
+          }
         },
         "buy_buttons_eXRdBt": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#08b47c",
             "atc_button_text_color": "",
-            "payment_button_background": "",
+            "payment_button_background": "#08b47c",
             "payment_button_text_color": ""
           }
         },
         "pickup_availability_zbKXcD": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         }
       },
       "block_order": [
+        "liquid_bP8qC3",
         "vendor_iFCHJK",
         "title_VfCkVY",
+        "liquid_CA6AR7",
+        "liquid_fXrUCq",
         "badges_NVXXQE",
         "price_tEHfrW",
         "rating_JYeFFN",
@@ -382,6 +416,7 @@
         "description_bpfcXG",
         "variant_picker_tcMDCQ",
         "quantity_selector_t6VP8k",
+        "liquid_34b7fy",
         "buy_buttons_eXRdBt",
         "pickup_availability_zbKXcD"
       ],
