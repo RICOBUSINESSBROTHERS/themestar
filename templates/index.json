@@ -608,8 +608,8 @@
           "type": "item",
           "settings": {
             "row_heading": "NATIVE SHOPIFY PAGE BUILDER",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "✅",
+            "second_column": "❌",
             "third_column": "",
             "four_column": ""
           }
@@ -618,8 +618,8 @@
           "type": "item",
           "settings": {
             "row_heading": "NO MONTHLY SUBSCRIPTION FEES",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "✅",
+            "second_column": "❌",
             "third_column": "",
             "four_column": ""
           }
@@ -628,8 +628,8 @@
           "type": "item",
           "settings": {
             "row_heading": "200+ HIGHLY CUSTOMISABLE SECTIONS",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "✅",
+            "second_column": "❌",
             "third_column": "",
             "four_column": ""
           }
@@ -638,8 +638,8 @@
           "type": "item",
           "settings": {
             "row_heading": "THE SLEEKEST LOOKING DESIGNS",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "✅",
+            "second_column": "❌",
             "third_column": "",
             "four_column": ""
           }
