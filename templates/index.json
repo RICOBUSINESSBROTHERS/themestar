@@ -76,7 +76,7 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#ca583a",
         "heading_color": "",
@@ -109,8 +109,8 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  #promo-text-unique {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #CA583A;\n    font-size: 1.5rem;\n    line-height: 1.2;\n    margin: 1px 0;\n  }\n</style>\n\n<div id=\"promo-text-unique\">\n  <strong>Testé par les experts</strong>, adopté par les femmes\n</div>",
-        "background": "",
+        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  #promo-text-unique {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #CA583A;\n    font-size: 1.5rem;\n    line-height: 1.2;\n    margin: 1px 0;\n  }\n</style>\n\n<div id=\"promo-text-unique\">\n  <strong>Approuvé par les amateurs de café</strong>, apprécié par tous.\n</div>",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -169,7 +169,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -286,7 +286,7 @@
       "name": "Testimonials Carousel",
       "settings": {
         "title": "",
-        "background_color": "#f0f0f0",
+        "background_color": "#f9f1e9",
         "title_color": "#333333",
         "card_background": "#ffffff",
         "border_color": "#e0e0e0",
@@ -396,7 +396,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
