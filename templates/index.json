@@ -11,6 +11,18 @@
   "sections": {
     "image_with_text_overlay_Yg4xLH": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_qLQKae": {
+          "type": "heading",
+          "settings": {
+            "text": "Adieu a la fatigue de 15 heures pour toujours !",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qLQKae"
+      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
