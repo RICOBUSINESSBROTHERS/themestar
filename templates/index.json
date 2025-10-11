@@ -90,7 +90,7 @@
         "items_per_row": 5,
         "background": "#f6f8f3",
         "background_gradient": "",
-        "text_color": "#ca583a",
+        "text_color": "#e9bc93",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -112,20 +112,6 @@
         "text_color": "#f6f8f3",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "custom_liquid_zqAqJU": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  #promo-text-unique {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #CA583A;\n    font-size: 1.5rem;\n    line-height: 1.2;\n    margin: 1px 0;\n  }\n</style>\n\n<div id=\"promo-text-unique\">\n  <strong>Approuvé par les amateurs de café</strong>, apprécié par tous.\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multi_column_NqJQRc": {
@@ -198,7 +184,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #D4A5A5;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTS</span></strong> EN PARLENT LE MIEUX\n</div>",
+        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #e9bc93;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTS</span></strong> EN PARLENT LE MIEUX\n</div>",
         "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": ""
@@ -296,7 +282,7 @@
       ],
       "name": "SS - Testimonials #12",
       "settings": {
-        "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 30,
@@ -1166,7 +1152,6 @@
     "image_with_text_overlay_Yg4xLH",
     "logo_list_UcjQUL",
     "image_with_text_overlay_hr6dqE",
-    "custom_liquid_zqAqJU",
     "multi_column_NqJQRc",
     "custom_liquid_NAcRrX",
     "testimonials12_4RQVbH",
