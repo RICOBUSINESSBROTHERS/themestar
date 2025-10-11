@@ -88,7 +88,7 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "#ffffff",
+        "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": "#ca583a",
         "heading_color": "",
@@ -105,17 +105,18 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/REVITACAFE.png",
-        "mobile_image": "shopify://shop_images/REVITACAFE.png",
+        "image": "shopify://shop_images/Copie_de_Template_section_benefice1.png",
+        "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#f6f8f3",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
     "custom_liquid_zqAqJU": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -175,6 +176,7 @@
         "item_Hkxnyn",
         "item_jVbw6h"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -184,7 +186,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "#ffffff",
+        "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": ""
       }
@@ -197,7 +199,7 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #CA583A;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTS</span></strong> EN PARLENT LE MIEUX\n</div>",
-        "background": "",
+        "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": ""
       }
@@ -301,7 +303,7 @@
       "name": "Testimonials Carousel",
       "settings": {
         "title": "",
-        "background_color": "#f9f1e9",
+        "background_color": "#f6f8f3",
         "title_color": "#333333",
         "card_background": "#ffffff",
         "border_color": "#e0e0e0",
@@ -909,7 +911,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "#f9f1e9",
+        "accordion_background": "#f6f8f3",
         "accordion_text_color": ""
       }
     },
@@ -928,7 +930,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "#f9f1e9",
+        "contact_background": "#f6f8f3",
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -957,7 +959,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "background": "",
+        "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": ""
       }
