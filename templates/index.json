@@ -15,7 +15,7 @@
         "heading_qLQKae": {
           "type": "heading",
           "settings": {
-            "text": "Adieu a la fatigue de 15 heures pour toujours !",
+            "text": "Fini la honte, retrouvez votre liberté",
             "heading_tag": "h3"
           }
         }
@@ -29,8 +29,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Bloomea.webp",
-        "mobile_image": "shopify://shop_images/Bloomea.webp",
+        "image": "shopify://shop_images/assets_task_01k73rn0k2eh2vembt9pk47q7d_1759989467_img_0.webp",
+        "mobile_image": "shopify://shop_images/assets_task_01k73rn0k2eh2vembt9pk47q7d_1759989467_img_0.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
