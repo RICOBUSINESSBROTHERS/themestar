@@ -696,7 +696,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Authenticité",
-            "content": "<p><strong>RevitaCafé™</strong> est uniquement disponible sur notre site officiel. Toute ventes sur des sites tierces comme Amazon, concerne des contrefaçons de mauvaise qualité. pour garantir l'authenticité de la qualité, achetez exclusivement sur notre site.</p><p>Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>",
+            "content": "<p><strong>Dignita</strong> est uniquement disponible sur notre site officiel. Toute ventes sur des sites tierces comme Amazon, concerne des contrefaçons de mauvaise qualité. pour garantir l'authenticité de la qualité, achetez exclusivement sur notre site.</p><p>Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>",
             "page": ""
           }
         },
@@ -705,8 +705,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Ingrédients et composition",
-            "content": "<p><strong>Mélange de champignons fonctionnels bio (2000 mg)</strong> :</p><ul><li><strong>Lion’s Mane</strong> (<em>Hericium erinaceus</em>) → Favorise la concentration et la mémoire.</li><li><strong>Reishi</strong> (<em>Ganoderma lucidum</em>) → Soutien de l’équilibre émotionnel et du système immunitaire.</li><li><strong>Shiitake</strong> (<em>Lentinula edodes</em>) → Source de polysaccharides bénéfiques pour l’immunité.</li><li><strong>Turkey Tail</strong> (<em>Trametes versicolor</em>) → Contribue à la santé intestinale et digestive.</li><li><strong>Cordyceps</strong> (<em>Cordyceps militaris</em>) → Améliore l’endurance et la vitalité.</li><li><strong>King Trumpet</strong> (<em>Pleurotus eryngii</em>) → Riche en antioxydants, soutient la longévité.</li></ul><p><strong>Café Arabica bio</strong> → goût riche et doux, avec environ <strong>48 mg de caféine par dose</strong> (soit moitié moins qu’un espresso).</p><p><strong>Huile MCT bio (coco)</strong> → énergie rapide et stable, sans crash.</p><p><strong>Lait de coco bio</strong> → texture crémeuse naturelle.</p>",
+            "title": "Combien de temps ça dure ?",
+            "content": "<p>Avec un entretien correct, nos culottes durent 2 à 3 ans, soit plus de 100 lavages. Un excellent investissement !<br/><br/></p>",
             "page": ""
           }
         },
@@ -715,8 +715,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Comment prendre RevitaCafé ?",
-            "content": "<p><strong>Dosage recommandé</strong> : 1 cuillère bombée (≈ 6 g) par jour.</p><p><strong>Préparation rapide</strong> :</p><ol><li>Versez la dose dans une tasse.</li><li>Ajoutez <strong>200 ml d’eau chaude</strong> ou de lait (végétal ou classique).</li><li>Mélangez bien (idéalement avec un petit mousseur pour un latte crémeux).</li><li>Dégustez chaud ou froid 🧊 selon vos envies.</li></ol><p><strong>Moment idéal</strong> :</p><ul><li>Le matin 👉 pour commencer la journée avec énergie et focus.</li><li>En début d’après-midi 👉 pour éviter le “coup de fatigue” sans risquer l’insomnie du soir.</li></ul><p><strong>Conseils d’utilisation</strong> :</p><ul><li>Ne pas dépasser 2 doses par jour (soit environ 100 mg de caféine).</li><li>Compatible avec les régimes <strong>vegan, keto, sans gluten, sans lactose</strong>.</li><li>Convient à une consommation quotidienne comme alternative au café classique.</li></ul>",
+            "title": "Choisir sa taille",
+            "content": "<p>Consultez notre guide des tailles avec mesures précises (tour de taille et hanches). En cas de doute, prenez la taille supérieure pour plus de confort.<br/><br/></p>",
             "page": ""
           }
         },
@@ -755,68 +755,6 @@
         "button_text_color": "",
         "accordion_background": "#f9f1e9",
         "accordion_text_color": ""
-      }
-    },
-    "multi_column_RDht7x": {
-      "type": "multi-column",
-      "blocks": {
-        "item_KYkiJL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/assets_task_01k39m3kqdf7y8xbnfc82wh7gs_1755891103_img_0.webp",
-            "column_size": "3",
-            "title": "Étape 1 - Préparez votre eau",
-            "heading_tag": "h4",
-            "content": "<p>Eau chaude ou eau froide, <strong>Revitacafé </strong>s'adapte !<br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_EYdGXb": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_6cf62b34-b6ed-468c-b8e6-4745bb215c42.webp",
-            "column_size": "3",
-            "title": "Étape 2 - Prenez une dose & mélangez",
-            "heading_tag": "h4",
-            "content": "<p>A la cuillère, mélangez <strong>Revitacafé </strong>avec votre eau prête.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_8HRmJY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/detente.webp",
-            "column_size": "3",
-            "title": "Étape 3 - Profitez",
-            "heading_tag": "h4",
-            "content": "<p>20 minutes après la prise, ressentez déjà un effet apaisant et décontracté, profitez en pour rayonner ! <br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_KYkiJL",
-        "item_EYdGXb",
-        "item_8HRmJY"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "small",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "3 gestes = changement garanti !",
-        "content": "",
-        "background": "#f9f1e9",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "camparison2_K7eWj8": {
@@ -1222,7 +1160,6 @@
     "croussel_rico_Bd8bUz",
     "featured_product_tczi86",
     "accordion_content_9KhmeE",
-    "multi_column_RDht7x",
     "camparison2_K7eWj8",
     "image_with_text_overlay_ERTREW",
     "faq",
