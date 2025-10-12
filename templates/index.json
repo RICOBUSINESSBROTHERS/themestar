@@ -746,7 +746,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "#f9f1e9",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -814,7 +814,7 @@
         "subheading": "",
         "title": "3 gestes = changement garanti !",
         "content": "",
-        "background": "#ffffff",
+        "background": "#f9f1e9",
         "background_gradient": "",
         "text_color": ""
       }
@@ -963,7 +963,7 @@
         "table_heading_color": "#2f1718",
         "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#ca583a",
-        "table_column_active_bg_color": "#ffffff",
+        "table_column_active_bg_color": "#f9f1e9",
         "table_column_active_border_color": "#ca583a",
         "table_row_border_color": "#d3cabc",
         "table_row_heading_color": "#2f1718",
