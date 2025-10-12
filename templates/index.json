@@ -1020,43 +1020,43 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Quel goût a le café aux champignons PURETEO ?",
-            "content": "<p>Notre café garde le goût riche et crémeux d’un café latte classique ☕, avec une légère note noisette. Les champignons utilisés (Lion’s Mane, Reishi, Cordyceps…) n’ont aucun goût “terreux” : ils sont discrets mais puissants en bienfaits.<br/><br/></p>"
+            "title": "Comment fonctionne la culotte absorbante ?",
+            "content": "<p>Notre culotte dispose de 3 couches : une couche douce contre la peau, une couche absorbante qui capte le liquide instantanément, et une barrière imperméable qui empêche les fuites. Vous la portez comme une culotte normale.<br/><br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que PURETEO contient vraiment de la caféine ?",
-            "content": "<p>Oui ✅. Chaque tasse contient environ <strong>48 mg de caféine</strong>, soit environ la moitié d’un espresso classique. Cela permet d’obtenir une énergie durable sans le “crash” ni les palpitations liés à un café trop fort.<br/><br/></p>"
+            "title": "Quelle est la capacité d'absorption ?",
+            "content": "<p>Nos culottes absorbent jusqu'à 60ml, soit l'équivalent de 4 à 6 protections jetables. Elles conviennent à l'incontinence légère à modérée.<br/><br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les bienfaits concrets des champignons fonctionnels ?",
-            "content": "<ul><li><strong>Lion’s Mane</strong> : améliore le focus et la mémoire.</li><li><strong>Cordyceps</strong> : booste l’endurance et l’énergie.</li><li><strong>Reishi</strong> : favorise la détente et l’équilibre émotionnel.</li><li><strong>Shiitake & Turkey Tail</strong> : soutiennent le système immunitaire et digestif.</li></ul><p>PURETEO combine ces super-aliments dans une formule 100% bio et vegan 🌱.</p>"
+            "title": "Combien de temps puis-je la porter ?",
+            "content": "<p>Vous pouvez la porter toute la journée (8-12h) ou toute la nuit en toute sécurité, selon votre niveau de fuites.<br/><br/></p>"
           }
         },
         "item_hLFdJB": {
           "type": "item",
           "settings": {
-            "title": "Puis-je boire PURETEO si je suis sensible au café classique ?",
-            "content": "<p>Absolument 👍. Notre formule est plus douce pour l’estomac, avec moins d’acidité qu’un café classique. Beaucoup de clients qui ne supportaient pas le café traditionnel tolèrent très bien PURETEO.</p>"
+            "title": "Est-ce que ça sent mauvais ?",
+            "content": "<p>Non ! Notre technologie antibactérienne neutralise les odeurs. Vous restez fraîche toute la journée.<br/><br/></p>"
           }
         },
         "item_8awPFP": {
           "type": "item",
           "settings": {
-            "title": "Comment préparer PURETEO ?",
-            "content": "<ul><li>Ajoutez <strong>1 dose (1 cuillère)</strong> dans de l’eau chaude ou du lait végétal.</li><li>Mélangez bien (ou utilisez un petit mousseur).</li><li>Dégustez chaud ou glacé 🧊.<br/>👉 En 30 secondes, vous avez un latte crémeux et fonctionnel.</li></ul>"
+            "title": "C'est visible sous les vêtements ?",
+            "content": "<p>Absolument pas. Notre culotte est ultra-fine (3mm) et se porte sous tous types de vêtements : jeans, leggings, robes, sans aucune visibilité.<br/><br/></p>"
           }
         },
         "item_DnfMDb": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que PURETEO est sûr et certifié ?",
-            "content": "<p>Oui ✅. Tous nos ingrédients sont<strong>100% bio, vegan, sans gluten, sans OGM, sans sucre ajouté</strong>. Nos champignons sont cultivés aux États-Unis et en Europe, puis testés en laboratoire pour garantir leur pureté et leur efficacité.<br/><br/></p>"
+            "title": "Est-ce confortable ?",
+            "content": "<p>Oui ! Le tissu est doux, respirant et se porte exactement comme une culotte classique. Nos clientes oublient même qu'elles la portent.<br/><br/><br/><br/></p>"
           }
         },
         "item_Dc7Gta": {
@@ -1064,6 +1064,62 @@
           "settings": {
             "title": "Quels sont les délais de livraison et votre politique de retour ?",
             "content": "<ul><li>Livraison rapide 📦 : 5 à 7 jours ouvrés en Europe.</li><li>Vous recevez un email de suivi à chaque étape.</li><li>Et si PURETEO ne vous convient pas, vous êtes couverts par notre <strong>garantie 30 jours “satisfait ou remboursé”</strong>.</li></ul>"
+          }
+        },
+        "item_Vmy4Vd": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir ma taille ?",
+            "content": "<p>Consultez notre guide des tailles avec mesures précises (tour de taille et hanches). En cas de doute, prenez la taille supérieure pour plus de confort.<br/><br/></p>"
+          }
+        },
+        "item_zbx4VQ": {
+          "type": "item",
+          "settings": {
+            "title": "Que faire si ma taille ne convient pas ?",
+            "content": "<p>Nous offrons les échanges gratuits ! Contactez-nous sous 30 jours et nous vous envoyons la bonne taille sans frais.<br/><br/></p>"
+          }
+        },
+        "item_iVFaQd": {
+          "type": "item",
+          "settings": {
+            "title": "Ça taille grand ou petit ?",
+            "content": "<p>Notre coupe est fidèle aux tailles françaises standard. Si vous êtes entre deux tailles, nous recommandons la taille supérieure.<br/><br/></p>"
+          }
+        },
+        "item_6dfnDm": {
+          "type": "item",
+          "settings": {
+            "title": "Comment laver ma culotte ?",
+            "content": "<p>Rincez à l'eau froide après utilisation, puis lavez en machine à 30-40°C avec votre linge habituel. Séchage à l'air libre recommandé.<br/><br/></p>"
+          }
+        },
+        "item_TLFDBn": {
+          "type": "item",
+          "settings": {
+            "title": "C'est cher par rapport aux protections jetables ?",
+            "content": "<p>Au contraire ! Les jetables coûtent 50-70€/mois soit 600-840€/an. Une culotte à 39€ qui dure 2 ans = 19,50€/an. Vous économisez plus de 500€ par an !<br/><br/></p>"
+          }
+        },
+        "item_qrfmti": {
+          "type": "item",
+          "settings": {
+            "title": "Convient-elle à tous les types d'incontinence ?",
+            "content": "<p>Nos culottes sont idéales pour l'incontinence légère à modérée (gouttes, fuites d'effort, urgences). Pour l'incontinence forte, nous recommandons de consulter un professionnel de santé.<br/><br/></p>"
+          }
+        },
+        "item_EAfjFc": {
+          "type": "item",
+          "settings": {
+            "title": "Convient-elle aux femmes ménopausées ?",
+            "content": "<p>Absolument ! De nombreuses clientes ménopausées l'utilisent quotidiennement avec satisfaction.<br/><br/></p>"
+          }
+        },
+        "item_tbTy9m": {
+          "type": "item",
+          "settings": {
+            "title": "Comment passer commande ?",
+            "content": "<p>Cliquez sur \"Commander maintenant\", choisissez votre taille et quantité, validez votre panier et procédez au paiement sécurisé.<br/><br/></p>"
           }
         }
       },
@@ -1074,7 +1130,15 @@
         "item_hLFdJB",
         "item_8awPFP",
         "item_DnfMDb",
-        "item_Dc7Gta"
+        "item_Dc7Gta",
+        "item_Vmy4Vd",
+        "item_zbx4VQ",
+        "item_iVFaQd",
+        "item_6dfnDm",
+        "item_TLFDBn",
+        "item_qrfmti",
+        "item_EAfjFc",
+        "item_tbTy9m"
       ],
       "settings": {
         "full_width": false,
