@@ -809,7 +809,7 @@
         "item_U8XTkw": {
           "type": "item",
           "settings": {
-            "row_heading": "Énergie qui dure toute la journée",
+            "row_heading": "Douce comme une culotte normale, peau qui respire",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -819,7 +819,7 @@
         "item_WnRcpM": {
           "type": "item",
           "settings": {
-            "row_heading": "Améliore le focus et la clarté d’esprit",
+            "row_heading": "Ultra-fine (3mm), totalement invisible et silencieuse",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -829,7 +829,7 @@
         "item_qhbTcX": {
           "type": "item",
           "settings": {
-            "row_heading": "100% bio, vegan et sans gluten",
+            "row_heading": "Dure 2-3 ans = Économisez 3500€",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -839,7 +839,7 @@
         "item_nUW9yr": {
           "type": "item",
           "settings": {
-            "row_heading": "Soutien du système immunitaire",
+            "row_heading": "Réutilisable 100+ fois = Zéro déchet",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -849,7 +849,7 @@
         "item_pBWefW": {
           "type": "item",
           "settings": {
-            "row_heading": "Pas de nervosité ni de palpitation",
+            "row_heading": "Protection 12h non-stop, barrière anti-fuite totale",
             "first_column": "✅",
             "second_column": "❌",
             "third_column": "",
@@ -866,7 +866,7 @@
       ],
       "name": "SS - Comparison Table #4",
       "settings": {
-        "heading": "<h2>Et si vous aviez enfin une vraie alternative au café?</h2>",
+        "heading": "<h2>Et si vous aviez enfin une vraie alternative aux serviettes hygieniques ? </h2>",
         "heading_custom": false,
         "heading_font": "assistant_n4",
         "heading_size": 56,
@@ -884,8 +884,8 @@
         "table_heading_image_size": 66,
         "table_heading_image_size_mobile": 40,
         "first_heading": "Pureteo",
-        "first_heading_image": "shopify://shop_images/Kaching-Bundles-PT_1.png",
-        "second_heading": "CAFÉ",
+        "first_heading_image": "shopify://shop_images/Design_sans_titre_1.png",
+        "second_heading": "Serviettes hygieniques",
         "third_heading": "",
         "four_heading": "",
         "table_heading_custom": false,
