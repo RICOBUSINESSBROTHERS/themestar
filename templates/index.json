@@ -1001,6 +1001,41 @@
         "overlay_opacity": 0
       }
     },
+    "blog_posts_QJTcya": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_nCBiCY": {
+          "type": "blog",
+          "settings": {
+            "blog": "incontinence-urinaire-la-solution-que-je-recommande-a-mes-patientes",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_nCBiCY"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -1180,41 +1215,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "blog_posts_QJTcya": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_nCBiCY": {
-          "type": "blog",
-          "settings": {
-            "blog": "incontinence-urinaire-la-solution-que-je-recommande-a-mes-patientes",
-            "posts_count": 2,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "blog_nCBiCY"
-      ],
-      "name": "Blog posts",
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -1229,9 +1229,9 @@
     "accordion_content_9KhmeE",
     "camparison2_K7eWj8",
     "image_with_text_overlay_ERTREW",
+    "blog_posts_QJTcya",
     "faq",
     "contact_Lrh9fY",
-    "1755900276bd76d265",
-    "blog_posts_QJTcya"
+    "1755900276bd76d265"
   ]
 }
