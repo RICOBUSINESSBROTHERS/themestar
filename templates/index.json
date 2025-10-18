@@ -105,8 +105,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Copie_de_Template_section_benefice1.png",
-        "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice1.png",
+        "image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
+        "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f6f8f3",
@@ -650,7 +650,7 @@
         "image_7H9M4J": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/STOCK_LIMITE_9225d17d-e48b-42e9-ae62-bb5f50fd85b4.png",
+            "image": "shopify://shop_images/STOCK_LIMITE_56f1695e-03af-4a0a-9c30-f37a769ba416.png",
             "alignment": "center",
             "max_width": 300
           }
