@@ -184,7 +184,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #e9bc93;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTS</span></strong> EN PARLENT LE MIEUX\n</div>",
+        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n  .custom-promo-text {\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    color: #000000;\n    font-size: 1.5rem!important;\n    line-height: 1.4;\n    margin: 1px 0;\n  }\n\n  .highlight-blue {\n    color: #e9bc93;\n  }\n</style>\n\n<div class=\"custom-promo-text\">\n  <strong><span class=\"highlight-blue\">NOS CLIENTES</span></strong> EN PARLENT LE MIEUX\n</div>",
         "background": "#f6f8f3",
         "background_gradient": "",
         "text_color": ""
