@@ -109,7 +109,7 @@
           "type": "text",
           "settings": {
             "title": "Service Client",
-            "content": "<p><strong>Email</strong>:<br/>hello@pureteo.com</p><p><strong>Horaires</strong>:<strong> <br/></strong>Du Lun au Ven de 9h à 17h</p>",
+            "content": "<p><strong>Email</strong>:<br/>contact@mydignita.com</p><p><strong>Horaires</strong>:<strong> <br/></strong>Du Lun au Ven de 9h à 17h</p>",
             "enable_follow_on_shop": false
           }
         }
