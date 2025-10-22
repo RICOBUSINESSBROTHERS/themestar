@@ -15,7 +15,7 @@
         "heading_qLQKae": {
           "type": "heading",
           "settings": {
-            "text": "Fini la honte, retrouvez votre liberté",
+            "text": "Le secret des femmes qui ne s'inquiètent plus des fuites",
             "heading_tag": "h3"
           }
         }
@@ -551,7 +551,7 @@
         "liquid_bP8qC3": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .trustpilot-score {\n    text-align: left; /* Align the content to the left */\n    margin-top: 10px; /* Add some space above the score */\n    display: flex; /* Use flexbox for alignment */\n    align-items: center; /* Vertically center content */\n    gap: 10px; /* Space between text and image */\n  }\n\n  .trustpilot-score p {\n    margin: 0;\n    font-weight: bold;\n  }\n\n  .trustpilot-score img {\n    max-width: 150px;\n    height: auto;\n  }\n</style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent</p>\n  <img src=\"https://cdn.shopify.com/s/files/1/0638/0647/2399/files/trustpilot_5stars.png?v=1752291198\" alt=\"Trustpilot rating\">\n</div>"
+            "liquid": "<style>\n  .trustpilot-score {\n    text-align: left; /* Align the content to the left */\n    margin-top: 10px; /* Add some space above the score */\n    display: flex; /* Use flexbox for alignment */\n    align-items: center; /* Vertically center content */\n    gap: 10px; /* Space between text and image */\n  }\n\n  .trustpilot-score p {\n    margin: 0;\n    font-weight: bold;\n  }\n\n  .trustpilot-score img {\n    max-width: 150px;\n    height: auto;\n  }\n</style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent</p>\n  <img src=\"https://cdn.shopify.com/s/files/1/0638/0647/2399/files/trustpilot_5stars.png?v=1752291198\" alt=\"Trustpilot rating\"> \n</div>"
           }
         },
         "vendor_iFCHJK": {
