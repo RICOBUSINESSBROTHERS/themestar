@@ -438,6 +438,7 @@
         "video_mWpcyp": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp (2).mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp (2).mp4",
             "poster": "shopify://shop_images/Capture_d_ecran_2025-10-22_224855.png",
@@ -448,6 +449,7 @@
         "video_h6iwjd": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp (1).mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp (1).mp4",
             "poster": "shopify://shop_images/Capture_d_ecran_2025-10-22_224903.png",
@@ -458,6 +460,7 @@
         "video_DPUBGY": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Vidéo sans titre ‐ Réalisée avec Clipchamp.mp4",
             "poster": "shopify://shop_images/Capture_d_ecran_2025-10-22_224910.png",
