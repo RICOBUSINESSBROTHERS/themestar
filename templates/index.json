@@ -913,10 +913,10 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "center",
-        "subheading": "",
-        "title": "La technologie Dignita",
+        "subheading": "Comment ça marche et pourquoi c'est la protection N°1 anti-fuites en 2025",
+        "title": "La Technologie Dignita Expliquée",
         "content": "",
         "background": "",
         "background_gradient": "",
