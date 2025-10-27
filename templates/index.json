@@ -781,10 +781,10 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#08b47c",
-            "atc_button_text_color": "",
-            "payment_button_background": "#08b47c",
-            "payment_button_text_color": ""
+            "atc_button_background": "#ffb800",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "#ffb800",
+            "payment_button_text_color": "#1a1a1a"
           }
         },
         "image_mRG6Mz": {
