@@ -913,6 +913,63 @@
         "input_text_color": ""
       }
     },
+    "carrou_MiUahH": {
+      "type": "carrou",
+      "blocks": {
+        "ingredient_YnMjea": {
+          "type": "ingredient",
+          "settings": {
+            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/GIF_1.gif?v=1761557879",
+            "ingredient_title": "COUCHE 1 : Maille Respirante de Qualité Médicale",
+            "ingredient_description": "Absorbe les fuites en moins de 3 secondes. Fini l'humidité des protections classiques qui vous laissent inconfortable toute la journée. Sécheresse et fraîcheur totales, même lors de fuites imprévues."
+          }
+        },
+        "ingredient_f99XwC": {
+          "type": "ingredient",
+          "settings": {
+            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/2_a90fbe0d-e7ac-4008-89bf-b03d3db8412a.webp?v=1761557872",
+            "ingredient_title": "COUCHE 2 : Protection Antimicrobienne aux Ions d'Argent",
+            "ingredient_description": "Élimine instantanément bactéries et odeurs au contact. Zéro gêne, zéro infection. Fraîcheur et confiance garanties en toute circonstance."
+          }
+        },
+        "ingredient_TBrrKX": {
+          "type": "ingredient",
+          "settings": {
+            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/GID_2.gif?v=1761558498",
+            "ingredient_title": "COUCHE 3 : Cœur Ultra-Absorbant",
+            "ingredient_description": "Retient plus de 240ml de fuites soudaines sans aucune fuite (voir la vidéo). Protection totale qui ne vous laissera jamais tomber. Sérénité absolue, quelle que soit l'importance de la fuite."
+          }
+        },
+        "ingredient_qT9qk7": {
+          "type": "ingredient",
+          "settings": {
+            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/4_3d297b3b-b4a7-4ea7-abf9-be87faf354c4.webp?v=1761557872",
+            "ingredient_title": "COUCHE 4 : Barrière Anti-Fuites Respirante",
+            "ingredient_description": "Sceau étanche à 360° qui empêche toute fuite sur les bords. Fini les vêtements tachés comme avec les serviettes classiques. Confiance absolue en toute situation."
+          }
+        },
+        "ingredient_dM6rxK": {
+          "type": "ingredient",
+          "settings": {
+            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/5_25636ada-2e04-4a32-b779-85632617b158.webp?v=1761557873",
+            "ingredient_title": "Le Meilleur ? Vous Oublierez Même Porter une Protection",
+            "ingredient_description": "Aspect & Sensation de Sous-Vêtement Normal, confort toute la journée \net durable 250+ lavages & entretien Facile"
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_YnMjea",
+        "ingredient_f99XwC",
+        "ingredient_TBrrKX",
+        "ingredient_qT9qk7",
+        "ingredient_dM6rxK"
+      ],
+      "name": "Carrousel d'Ingrédients",
+      "settings": {
+        "section_title": "4 Couches imbattables",
+        "section_subtitle": ""
+      }
+    },
     "accordion_content_9KhmeE": {
       "type": "accordion-content",
       "blocks": {
@@ -1405,63 +1462,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "carrou_MiUahH": {
-      "type": "carrou",
-      "blocks": {
-        "ingredient_YnMjea": {
-          "type": "ingredient",
-          "settings": {
-            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/GIF_1.gif?v=1761557879",
-            "ingredient_title": "COUCHE 1 : Maille Respirante de Qualité Médicale",
-            "ingredient_description": "Absorbe les fuites en moins de 3 secondes. Fini l'humidité des protections classiques qui vous laissent inconfortable toute la journée. Sécheresse et fraîcheur totales, même lors de fuites imprévues."
-          }
-        },
-        "ingredient_f99XwC": {
-          "type": "ingredient",
-          "settings": {
-            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/2_a90fbe0d-e7ac-4008-89bf-b03d3db8412a.webp?v=1761557872",
-            "ingredient_title": "COUCHE 2 : Protection Antimicrobienne aux Ions d'Argent",
-            "ingredient_description": "Élimine instantanément bactéries et odeurs au contact. Zéro gêne, zéro infection. Fraîcheur et confiance garanties en toute circonstance."
-          }
-        },
-        "ingredient_TBrrKX": {
-          "type": "ingredient",
-          "settings": {
-            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/GID_2.gif?v=1761558498",
-            "ingredient_title": "COUCHE 3 : Cœur Ultra-Absorbant",
-            "ingredient_description": "Retient plus de 240ml de fuites soudaines sans aucune fuite (voir la vidéo). Protection totale qui ne vous laissera jamais tomber. Sérénité absolue, quelle que soit l'importance de la fuite."
-          }
-        },
-        "ingredient_qT9qk7": {
-          "type": "ingredient",
-          "settings": {
-            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/4_3d297b3b-b4a7-4ea7-abf9-be87faf354c4.webp?v=1761557872",
-            "ingredient_title": "COUCHE 4 : Barrière Anti-Fuites Respirante",
-            "ingredient_description": "Sceau étanche à 360° qui empêche toute fuite sur les bords. Fini les vêtements tachés comme avec les serviettes classiques. Confiance absolue en toute situation."
-          }
-        },
-        "ingredient_dM6rxK": {
-          "type": "ingredient",
-          "settings": {
-            "media_url": "https://cdn.shopify.com/s/files/1/0957/5861/4846/files/5_25636ada-2e04-4a32-b779-85632617b158.webp?v=1761557873",
-            "ingredient_title": "Le Meilleur ? Vous Oublierez Même Porter une Protection",
-            "ingredient_description": "Aspect & Sensation de Sous-Vêtement Normal, confort toute la journée \net durable 250+ lavages & entretien Facile"
-          }
-        }
-      },
-      "block_order": [
-        "ingredient_YnMjea",
-        "ingredient_f99XwC",
-        "ingredient_TBrrKX",
-        "ingredient_qT9qk7",
-        "ingredient_dM6rxK"
-      ],
-      "name": "Carrousel d'Ingrédients",
-      "settings": {
-        "section_title": "Nos Ingrédients Naturels",
-        "section_subtitle": "Découvrez les ingrédients naturels qui composent nos produits"
-      }
     }
   },
   "order": [
@@ -1474,6 +1474,7 @@
     "ss_product_r7Mi79",
     "croussel_rico_Bd8bUz",
     "featured_product_tczi86",
+    "carrou_MiUahH",
     "accordion_content_9KhmeE",
     "camparison2_K7eWj8",
     "image_with_text_overlay_ERTREW",
@@ -1481,7 +1482,6 @@
     "blog_posts_QJTcya",
     "faq",
     "contact_Lrh9fY",
-    "1755900276bd76d265",
-    "carrou_MiUahH"
+    "1755900276bd76d265"
   ]
 }
