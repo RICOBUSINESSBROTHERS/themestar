@@ -762,51 +762,6 @@
           "type": "badges",
           "settings": {}
         },
-        "price_tEHfrW": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_JYeFFN": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_Yryieq": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {}
-        },
-        "description_bpfcXG": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_tcMDCQ": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_t6VP8k": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
         "image_7H9M4J": {
           "type": "image",
           "settings": {
@@ -832,18 +787,10 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_tJBzHW": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n  .highlight-text {\n    font-family: 'Roboto Condensed', Arial, sans-serif;\n    font-size: 18px;\n    font-weight: 400;\n    color: #000;\n    text-align: center;\n    margin: 20px 0;\n  }\n  .highlight-text strong {\n    color: #ca583a; /* couleur accent */\n    font-weight: 700;\n  }\n</style>\n\n<p class=\"highlight-text\">\n  Plus de <strong>2500</strong> femmes ont retrouvé leur liberté ce mois-ci. <strong>À votre tour. </strong>\n</p>"
-          }
-        },
         "image_mRG6Mz": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_1900_x_800_px_2.png",
+            "image": "shopify://shop_images/Copie_de_EcomIA_Insiders_-_TRUST_CHECKOUT_f009bdd3-b8ec-4df5-9c44-51f6f592478c.png",
             "alignment": "center",
             "max_width": 300
           }
@@ -861,11 +808,6 @@
           "settings": {
             "liquid": "<div id='ss-product-videos'></div>"
           }
-        },
-        "pickup_availability_zbKXcD": {
-          "type": "pickup_availability",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
@@ -879,20 +821,12 @@
         "liquid_XDPGBe",
         "kaching_bundles_app_block_eeR9gB",
         "badges_NVXXQE",
-        "price_tEHfrW",
-        "rating_JYeFFN",
-        "separator_Yryieq",
-        "description_bpfcXG",
-        "variant_picker_tcMDCQ",
-        "quantity_selector_t6VP8k",
         "image_7H9M4J",
         "liquid_34b7fy",
         "buy_buttons_eXRdBt",
-        "liquid_tJBzHW",
         "image_mRG6Mz",
         "image_EMmqTF",
-        "liquid_YdWRMk",
-        "pickup_availability_zbKXcD"
+        "liquid_YdWRMk"
       ],
       "name": "Featured product",
       "settings": {
@@ -980,9 +914,9 @@
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
-        "title": "",
+        "title": "La technologie Dignita",
         "content": "",
         "background": "",
         "background_gradient": "",
