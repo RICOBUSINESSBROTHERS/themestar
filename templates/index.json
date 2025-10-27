@@ -832,12 +832,6 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_ePiWqM": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"savings-calculator\" style=\"background:#f5f5f5;padding:20px;border-radius:12px;margin:30px 0;\">\n  \n  <h3 style=\"text-align:center;font-size:22px;margin-bottom:25px;color:#2c2c2c;line-height:1.3;\">💰 CALCULEZ VOS ÉCONOMIES</h3>\n  \n  <!-- Tableau comparatif mobile -->\n  <div style=\"overflow-x:auto;\">\n    <table style=\"width:100%;min-width:300px;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.1);\">\n      \n      <!-- En-tête -->\n      <thead>\n        <tr style=\"background:#2c2c2c;color:white;\">\n          <th style=\"padding:12px 8px;text-align:left;font-size:14px;font-weight:bold;\">PÉRIODE</th>\n          <th style=\"padding:12px 8px;text-align:center;font-size:13px;font-weight:bold;line-height:1.3;\">JETABLES</th>\n          <th style=\"padding:12px 8px;text-align:center;font-size:13px;font-weight:bold;background:#ca583a;line-height:1.3;\">PACK DIGNITA<br><span style=\"font-size:11px;font-weight:normal;\">(2+1 offerte)</span></th>\n        </tr>\n      </thead>\n      \n      <!-- Corps du tableau -->\n      <tbody>\n        \n        <!-- Ligne 1 : Coût initial -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">Départ</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">70€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 2 : 6 mois -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">6 mois</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">420€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 3 : 1 an -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">1 an</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">840€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 4 : 2 ans -->\n        <tr style=\"border-bottom:2px solid #ca583a;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">2 ans</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:20px;color:#d32f2f;font-weight:bold;\">1 680€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:20px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n      </tbody>\n      \n    </table>\n  </div>\n  \n  <!-- Ligne économie totale (en dehors du tableau pour mobile) -->\n  <div style=\"background:#ca583a;color:white;padding:20px;border-radius:8px;margin-top:15px;text-align:center;\">\n    <div style=\"font-size:16px;font-weight:600;margin-bottom:10px;\">VOTRE ÉCONOMIE SUR 2 ANS</div>\n    <div style=\"font-size:40px;font-weight:bold;margin-bottom:8px;\">1 640€</div>\n    <div style=\"font-size:14px;line-height:1.4;\">C'est comme si chaque culotte vous PAYAIT 547€ !</div>\n  </div>"
-          }
-        },
         "liquid_tJBzHW": {
           "type": "liquid",
           "disabled": true,
@@ -894,7 +888,6 @@
         "image_7H9M4J",
         "liquid_34b7fy",
         "buy_buttons_eXRdBt",
-        "liquid_ePiWqM",
         "liquid_tJBzHW",
         "image_mRG6Mz",
         "image_EMmqTF",
@@ -1399,6 +1392,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_ymEB3U": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"savings-calculator\" style=\"background:#f5f5f5;padding:20px;border-radius:12px;margin:30px 0;\">\n  \n  <h3 style=\"text-align:center;font-size:22px;margin-bottom:25px;color:#2c2c2c;line-height:1.3;\">💰 CALCULEZ VOS ÉCONOMIES</h3>\n  \n  <!-- Tableau comparatif mobile -->\n  <div style=\"overflow-x:auto;\">\n    <table style=\"width:100%;min-width:300px;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.1);\">\n      \n      <!-- En-tête -->\n      <thead>\n        <tr style=\"background:#2c2c2c;color:white;\">\n          <th style=\"padding:12px 8px;text-align:left;font-size:14px;font-weight:bold;\">PÉRIODE</th>\n          <th style=\"padding:12px 8px;text-align:center;font-size:13px;font-weight:bold;line-height:1.3;\">JETABLES</th>\n          <th style=\"padding:12px 8px;text-align:center;font-size:13px;font-weight:bold;background:#ca583a;line-height:1.3;\">PACK DIGNITA<br><span style=\"font-size:11px;font-weight:normal;\">(2+1 offerte)</span></th>\n        </tr>\n      </thead>\n      \n      <!-- Corps du tableau -->\n      <tbody>\n        \n        <!-- Ligne 1 : Coût initial -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">Départ</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">70€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 2 : 6 mois -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">6 mois</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">420€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 3 : 1 an -->\n        <tr style=\"border-bottom:1px solid #e0e0e0;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">1 an</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#d32f2f;font-weight:bold;\">840€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:18px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n        <!-- Ligne 4 : 2 ans -->\n        <tr style=\"border-bottom:2px solid #ca583a;\">\n          <td style=\"padding:15px 8px;font-weight:600;font-size:14px;color:#2c2c2c;\">2 ans</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:20px;color:#d32f2f;font-weight:bold;\">1 680€</td>\n          <td style=\"padding:15px 8px;text-align:center;font-size:20px;color:#2e7d32;font-weight:bold;background:#f1f8f4;\">39,90€</td>\n        </tr>\n        \n      </tbody>\n      \n    </table>\n  </div>\n  \n  <!-- Ligne économie totale (en dehors du tableau pour mobile) -->\n  <div style=\"background:#ca583a;color:white;padding:20px;border-radius:8px;margin-top:15px;text-align:center;\">\n    <div style=\"font-size:16px;font-weight:600;margin-bottom:10px;\">VOTRE ÉCONOMIE SUR 2 ANS</div>\n    <div style=\"font-size:40px;font-weight:bold;margin-bottom:8px;\">1 640€</div>\n    <div style=\"font-size:14px;line-height:1.4;\">C'est comme si chaque culotte vous PAYAIT 547€ !</div>\n  </div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -1414,6 +1420,7 @@
     "accordion_content_9KhmeE",
     "camparison2_K7eWj8",
     "image_with_text_overlay_ERTREW",
+    "custom_liquid_ymEB3U",
     "blog_posts_QJTcya",
     "faq",
     "contact_Lrh9fY",
