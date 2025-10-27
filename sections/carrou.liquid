@@ -1,0 +1,420 @@
+{% comment %}
+  Section: Carrousel d'Ingrédients
+  Description: Carrousel swipeable avec images/GIFs et texte superposé
+{% endcomment %}
+
+<style>
+  .ingredients-carousel-section {
+    padding: 60px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .ingredients-carousel-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .ingredients-carousel-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000;
+  }
+
+  .ingredients-carousel-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .carousel-wrapper {
+    position: relative;
+    padding: 0 50px;
+  }
+
+  .carousel-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+  }
+
+  .carousel-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ingredient-card {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .ingredient-card:active {
+    cursor: grabbing;
+  }
+
+  .ingredient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .ingredient-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .ingredient-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    padding: 40px 30px;
+    color: white;
+  }
+
+  .ingredient-card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .ingredient-card-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.3s ease;
+  }
+
+  .carousel-nav:hover {
+    background: #f0f0f0;
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .carousel-nav.prev {
+    left: 0;
+  }
+
+  .carousel-nav.next {
+    right: 0;
+  }
+
+  .carousel-nav svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+  }
+
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .carousel-dot.active {
+    background: #333;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-wrapper {
+      padding: 0 20px;
+    }
+
+    .ingredient-card {
+      width: 320px;
+      height: 450px;
+    }
+
+    .carousel-nav {
+      display: none;
+    }
+
+    .ingredients-carousel-title {
+      font-size: 2rem;
+    }
+
+    .ingredient-card-title {
+      font-size: 1.6rem;
+    }
+
+    .ingredient-card-description {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .ingredient-card {
+      width: 280px;
+      height: 400px;
+    }
+  }
+</style>
+
+<div class="ingredients-carousel-section">
+  {% if section.settings.section_title != blank or section.settings.section_subtitle != blank %}
+    <div class="ingredients-carousel-header">
+      {% if section.settings.section_title != blank %}
+        <h2 class="ingredients-carousel-title">{{ section.settings.section_title }}</h2>
+      {% endif %}
+      {% if section.settings.section_subtitle != blank %}
+        <p class="ingredients-carousel-subtitle">{{ section.settings.section_subtitle }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="carousel-wrapper">
+    <button class="carousel-nav prev" onclick="scrollCarousel('prev')">
+      <svg viewBox="0 0 24 24">
+        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+      </svg>
+    </button>
+
+    <div class="carousel-container" id="ingredientsCarousel">
+      {% for block in section.blocks %}
+        <div class="ingredient-card" data-block-id="{{ block.id }}">
+          {% if block.settings.media_url != blank %}
+            {% assign media_extension = block.settings.media_url | split: '.' | last | downcase %}
+            
+            {% if media_extension == 'gif' %}
+              <img src="{{ block.settings.media_url }}" alt="{{ block.settings.ingredient_title }}" class="ingredient-card-image">
+            {% elsif media_extension == 'mp4' or media_extension == 'webm' %}
+              <video class="ingredient-card-image" autoplay loop muted playsinline>
+                <source src="{{ block.settings.media_url }}" type="video/{{ media_extension }}">
+              </video>
+            {% else %}
+              <img src="{{ block.settings.media_url }}" alt="{{ block.settings.ingredient_title }}" class="ingredient-card-image">
+            {% endif %}
+          {% else %}
+            <div class="ingredient-card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+          {% endif %}
+
+          <div class="ingredient-card-overlay">
+            {% if block.settings.ingredient_title != blank %}
+              <h3 class="ingredient-card-title">{{ block.settings.ingredient_title }}</h3>
+            {% endif %}
+            {% if block.settings.ingredient_description != blank %}
+              <p class="ingredient-card-description">{{ block.settings.ingredient_description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <button class="carousel-nav next" onclick="scrollCarousel('next')">
+      <svg viewBox="0 0 24 24">
+        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="carousel-dots" id="carouselDots"></div>
+</div>
+
+<script>
+  (function() {
+    const carousel = document.getElementById('ingredientsCarousel');
+    const dotsContainer = document.getElementById('carouselDots');
+    const cards = carousel.querySelectorAll('.ingredient-card');
+    
+    // Créer les dots
+    cards.forEach((card, index) => {
+      const dot = document.createElement('button');
+      dot.className = 'carousel-dot';
+      if (index === 0) dot.classList.add('active');
+      dot.onclick = () => scrollToCard(index);
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer.querySelectorAll('.carousel-dot');
+
+    // Mettre à jour les dots actifs
+    function updateDots() {
+      const scrollLeft = carousel.scrollLeft;
+      const cardWidth = cards[0].offsetWidth + 30; // width + gap
+      const activeIndex = Math.round(scrollLeft / cardWidth);
+      
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeIndex);
+      });
+    }
+
+    // Scroll vers une carte spécifique
+    function scrollToCard(index) {
+      const cardWidth = cards[0].offsetWidth + 30;
+      carousel.scrollTo({
+        left: cardWidth * index,
+        behavior: 'smooth'
+      });
+    }
+
+    // Navigation par flèches
+    window.scrollCarousel = function(direction) {
+      const cardWidth = cards[0].offsetWidth + 30;
+      const scrollAmount = direction === 'next' ? cardWidth : -cardWidth;
+      carousel.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    };
+
+    // Touch/swipe support
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    carousel.addEventListener('mousedown', (e) => {
+      isDown = true;
+      carousel.style.cursor = 'grabbing';
+      startX = e.pageX - carousel.offsetLeft;
+      scrollLeft = carousel.scrollLeft;
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+      isDown = false;
+      carousel.style.cursor = 'grab';
+    });
+
+    carousel.addEventListener('mouseup', () => {
+      isDown = false;
+      carousel.style.cursor = 'grab';
+    });
+
+    carousel.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - carousel.offsetLeft;
+      const walk = (x - startX) * 2;
+      carousel.scrollLeft = scrollLeft - walk;
+    });
+
+    // Mettre à jour les dots au scroll
+    carousel.addEventListener('scroll', updateDots);
+
+    // Initial update
+    updateDots();
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Carrousel d'Ingrédients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Titre de la section",
+      "default": "Nos Ingrédients Naturels"
+    },
+    {
+      "type": "textarea",
+      "id": "section_subtitle",
+      "label": "Sous-titre de la section",
+      "default": "Découvrez les ingrédients naturels qui composent nos produits"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "Carte Ingrédient",
+      "settings": [
+        {
+          "type": "url",
+          "id": "media_url",
+          "label": "URL du média (Image/GIF/Vidéo)",
+          "info": "Ajoutez l'URL de votre fichier depuis Shopify Files. Formats supportés: .jpg, .png, .gif, .mp4, .webm"
+        },
+        {
+          "type": "text",
+          "id": "ingredient_title",
+          "label": "Nom de l'ingrédient",
+          "default": "Huile de Jojoba"
+        },
+        {
+          "type": "textarea",
+          "id": "ingredient_description",
+          "label": "Description",
+          "default": "Équilibre naturellement le sébum de votre peau et pénètre instantanément sans laisser de film gras pour une hydratation légère et durable."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carrousel d'Ingrédients",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "ingredient",
+          "settings": {
+            "ingredient_title": "Huile de Jojoba",
+            "ingredient_description": "Équilibre naturellement le sébum de votre peau et pénètre instantanément sans laisser de film gras pour une hydratation légère et durable."
+          }
+        },
+        {
+          "type": "ingredient",
+          "settings": {
+            "ingredient_title": "Aloe Vera",
+            "ingredient_description": "Apaise et hydrate intensément la peau tout en favorisant sa régénération naturelle."
+          }
+        },
+        {
+          "type": "ingredient",
+          "settings": {
+            "ingredient_title": "Beurre de Karité",
+            "ingredient_description": "Nourrit en profondeur et protège la peau grâce à sa richesse en vitamines et acides gras essentiels."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
